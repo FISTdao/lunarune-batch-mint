@@ -69,7 +69,7 @@ const mnemonic = new MnemonicKey({
     mnemonic: "your mnemonic phrase"
 });
 
-Replace "你的注记词" in mnemonic with your 24-word mnemonic phrase.
+Replace "your mnemonic phrase" in mnemonic with your 24-word mnemonic phrase.
 
 Run the script
 
