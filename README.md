@@ -63,7 +63,7 @@ cd lunarune-batch-mint
 
 npm install
 
-Open mint.js and modify it with your own mnemonic phrase. If the node crashes, replace it yourself. You can change the configuration lcd: 'https://terra-lcd.publicnode.com', modify the node here. You can set the execution time yourself.
+Open mint.js and modify it with your own mnemonic phrase. If the node crashes, replace it yourself. You can change the configuration lcd: 'https://terra-lcd.publicnode.com'  , modify the node here. You can set the execution time yourself.
 
 const mnemonic = new MnemonicKey({
     mnemonic: "your mnemonic phrase"
@@ -90,7 +90,7 @@ cd lunarune-batch-mint
 
 npm install
 
-Open mint.js and modify it with your own mnemonic phrase. If the node crashes, replace it yourself. You can change the configuration lcd: 'https://terra-lcd.publicnode.com', modify the node here. You can set the execution time yourself.
+Open mint.js and modify it with your own mnemonic phrase. If the node crashes, replace it yourself. You can change the configuration lcd: 'https://terra-lcd.publicnode.com'  , modify the node here. You can set the execution time yourself.
 
 const mnemonic = new MnemonicKey({
     mnemonic: "your mnemonic phrase"
@@ -115,7 +115,7 @@ cd lunarune-batch-mint
 
 npm install
 
-mint.js를 열고 자신의 암기어를 수정하십시오. 노드가 충돌하면 자체적으로 교체하십시오. lcd: 'https://terra-lcd.publicnode.com'에서 노드를 변경할 수 있습니다. 각 실행 시간을 자체적으로 설정할 수 있습니다.
+mint.js를 열고 자신의 암기어를 수정하십시오. 노드가 충돌하면 자체적으로 교체하십시오.  lcd: 'https://terra-lcd.publicnode.com'     에서 노드를 변경할 수 있습니다. 각 실행 시간을 자체적으로 설정할 수 있습니다.
 
 const mnemonic = new MnemonicKey({ mnemonic: "당신의 암기어" }); mnemonic에서 당신의 암기어를 당신의 24자 암기어로 교체하십시오.
 
@@ -136,7 +136,7 @@ cd lunarune-batch-mint
 
 npm install
 
-mint.js를 열고 자신의 암기어를 수정하십시오. 노드가 충돌하면 자체적으로 교체하십시오. lcd: 'https://terra-lcd.publicnode.com'에서 노드를 변경할 수 있습니다. 각 실행 시간을 자체적으로 설정할 수 있습니다.
+mint.js를 열고 자신의 암기어를 수정하십시오. 노드가 충돌하면 자체적으로 교체하십시오.     lcd: 'https://terra-lcd.publicnode.com'   에서 노드를 변경할 수 있습니다. 각 실행 시간을 자체적으로 설정할 수 있습니다.
 
 const mnemonic = new MnemonicKey({ mnemonic: "당신의 암기어" }); mnemonic에서 당신의 암기어를 당신의 24자 암기어로 교체하십시오.
 
