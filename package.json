@@ -1,0 +1,16 @@
+{
+  "name": "lunarune-batch-mint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@terra-money/feather.js": "^2.0.0-beta.16"
+  }
+}
