@@ -1,8 +1,7 @@
+lunarune batch Mint Inscribe script 
 -------------------------------
 https://www.lunarune.pro/#
 
-lunarune batch Mint Inscribe script 
---------------------------------------------------
 linux 教程
 ---------------------------------------------------------------
 				
