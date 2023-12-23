@@ -5,7 +5,7 @@ const luna = {
   'phoenix-1': {
     chainID: 'phoenix-1',
     lcd: 'https://terra-lcd.publicnode.com', //LCD Link 注意是LCD 不是 RPC 
-    gasAdjustment: 1.75,  
+    gasAdjustment: 1.02,   //gas 倍数设置,设置1.02使用最低标准gas ,大概4分一张，如果不成功调高即可
     gasPrices: { uluna: 0.015 },
     prefix: 'terra',
   }
@@ -42,11 +42,7 @@ const executeContract = async () => {
             msgs: [msgExecute],
             chainID: "phoenix-1",
             memo: "{\"p\":\"Luru-20\",\"op\":\"mint\",\"tick\":\"LURU\",\"amt\":\"1000\"}",
-            //fee: new Fee(3500000, "100000uluna"),
-			
-            // 当前设置使用网络查询gas.需要使用默认gas删除注释符号 fee 前面的 // 用于提速交易
-            // 设置默认gas只需要修改 100000uluna 代表支付0.1 luna的 gas费 
-		
+         
         });
 
         const result = await lcd.tx.broadcastSync(tx, "phoenix-1");
