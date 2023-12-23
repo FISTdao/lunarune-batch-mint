@@ -11,7 +11,13 @@ cd lunarune-batch-mint
 				
 npm install
 				
-打开mint.js 修改成自己注记词,如果节点崩溃 ,自己更换,自己可以修改配置lcd: 'https://terra-lcd.publicnode.com',  中的节点 ，每次执行时间可以自己设置 
+打开mint.js 修改成自己注记词,如果节点崩溃 ,自己更换,自己可以修改配置lcd: 'https://terra-lcd.publicnode.com',  中的节点 ，每次执行时间可以自己设置
+
+// 导入24字注记词
+const mnemonic = new MnemonicKey({
+    mnemonic: "你的注记词"
+});
+mnemonic 中 你的注记词 替换为你的24字注记词
 				
 运行脚本				
 node mint.js
@@ -33,6 +39,12 @@ cd lunarune-batch-mint
 npm install
 
 打开mint.js 修改成自己注记词,如果节点崩溃 ,自己更换,自己可以修改配置lcd: 'https://terra-lcd.publicnode.com', 中的节点 ，每次执行时间可以自己设置
+
+// 导入24字注记词
+const mnemonic = new MnemonicKey({
+    mnemonic: "你的注记词"
+});
+mnemonic 中 你的注记词 替换为你的24字注记词
 
 运行脚本 node mint.js
 
