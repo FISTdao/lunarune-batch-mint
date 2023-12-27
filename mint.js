@@ -20,7 +20,7 @@ const mnemonic = new MnemonicKey({
 
 const mintAddr = mnemonic.accAddress("terra");
 const wallet = lcd.wallet(mnemonic);
-const contractAddr = "terra1tq4c74q40n42f296rrnnjrj2avdlcl3kkqhlj4m9h69lzq68z2pq44hz9j";
+const contractAddr = "terra1k7qcmehexltntug3ypp4q2h6egc0gunwm6d55qtrpcc7cculeuhqfteu8q";
 
 // 创建一个异步函数执行合约操作
 const executeContract = async () => {
