@@ -6,7 +6,7 @@ const luna = {
     chainID: 'phoenix-1',
     lcd: 'https://terra-lcd.publicnode.com', //LCD Link 注意是LCD 不是 RPC 
     gasAdjustment: 1.01,   //gas 倍数设置,设置1.02使用最低标准gas ,大概4分一张，如果不成功调高即可
-    gasPrices: { uluna: 0.15 },
+    gasPrices: { uluna: 0.015 },
     prefix: 'terra',
   }
 };
